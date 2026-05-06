@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortopolo | Professional Portfolio</title>
+    <meta name="description" content="Portfolio profesional Fortopolo - UI/UX Designer & Web Developer yang berfokus pada pengalaman digital yang luar biasa.">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Fortopolo | Professional Portfolio">
+    <meta property="og:description" content="Explore my creative work and technical skills.">
+    <meta property="og:image" content="project1.png">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">FORTOPOLO</a>
+            <ul class="nav-links">
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary" style="padding: 0.6rem 1.5rem; font-size: 0.9rem;">Hire Me</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-glow"></div>
+            <div class="reveal">
+                <span class="section-tag">Tersedia untuk Proyek Baru</span>
+                <h1>Crafting Digital<br>Experiences.</h1>
+                <p>Halo, saya Fortopolo. Seorang pengembang web kreatif yang menggabungkan estetika desain dengan performa kode yang optimal.</p>
+                <div style="display: flex; gap: 1rem; justify-content: center;">
+                    <a href="#projects" class="btn btn-primary">Lihat Pekerjaan Saya</a>
+                    <a href="#about" class="btn glass" style="border-radius: 50px; padding: 1rem 2.5rem; font-weight: 600;">Kenali Saya</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="about-content">
+                <div class="profile-img-wrapper reveal">
+                    <img src="profile.png" alt="Fortopolo Profile">
+                </div>
+                <div class="reveal">
+                    <span class="section-tag">Siapa Saya</span>
+                    <h2 class="section-title">Mendorong Batas Kreativitas Digital.</h2>
+                    <p style="margin-bottom: 2rem; color: var(--text-muted);">
+                        Saya memiliki pengalaman dalam membangun aplikasi web modern menggunakan teknologi terkini. Fokus utama saya adalah menciptakan antarmuka yang intuitif dan menarik bagi pengguna.
+                    </p>
+                    
+                    <h3>Keahlian Utama</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card glass">
+                            <h4>UI/UX</h4>
+                            <p style="font-size: 0.8rem; color: var(--text-muted);">Figma, Adobe XD</p>
+                        </div>
+                        <div class="skill-card glass">
+                            <h4>Frontend</h4>
+                            <p style="font-size: 0.8rem; color: var(--text-muted);">React, Next.js, CSS</p>
+                        </div>
+                        <div class="skill-card glass">
+                            <h4>Backend</h4>
+                            <p style="font-size: 0.8rem; color: var(--text-muted);">Node.js, Python</p>
+                        </div>
+                        <div class="skill-card glass">
+                            <h4>Database</h4>
+                            <p style="font-size: 0.8rem; color: var(--text-muted);">PostgreSQL, MongoDB</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div style="text-align: center; margin-bottom: 4rem;">
+                <span class="section-tag">Showcase</span>
+                <h2 class="section-title">Proyek Pilihan</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal">
+                    <img src="project1.png" alt="Project 1" class="project-img">
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Web App</span>
+                            <span class="tag">Dashboard</span>
+                        </div>
+                        <h3>Nova Analytics Platform</h3>
+                        <p>Platform analisis data real-time dengan visualisasi canggih dan integrasi AI.</p>
+                        <a href="#" style="color: var(--primary); font-weight: 600;">Lihat Detail &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card reveal">
+                    <img src="project2.png" alt="Project 2" class="project-img">
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Mobile</span>
+                            <span class="tag">Design</span>
+                        </div>
+                        <h3>Creative Connect</h3>
+                        <p>Aplikasi mobile untuk menghubungkan kreator di seluruh dunia dengan antarmuka minimalis.</p>
+                        <a href="#" style="color: var(--primary); font-weight: 600;">Lihat Detail &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="glass contact-container reveal">
+                <div style="text-align: center; margin-bottom: 3rem;">
+                    <span class="section-tag">Kontak</span>
+                    <h2 class="section-title">Mari Bekerja Sama</h2>
+                    <p style="color: var(--text-muted);">Punya ide luar biasa? Kirimkan pesan dan mari wujudkan bersama.</p>
+                </div>
+                
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" placeholder="Nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="email@contoh.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" rows="5" placeholder="Ceritakan proyek Anda..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Kirim Pesan</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer style="padding: 4rem 2rem; text-align: center; border-top: 1px solid var(--glass-border);">
+        <p style="color: var(--text-muted);">&copy; 2026 Fortopolo. All rights reserved.</p>
+        <div style="margin-top: 1rem; display: flex; gap: 1.5rem; justify-content: center;">
+            <a href="#" class="nav-links">LinkedIn</a>
+            <a href="#" class="nav-links">GitHub</a>
+            <a href="#" class="nav-links">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
